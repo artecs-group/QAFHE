@@ -1,0 +1,15 @@
+digraph G {
+  orin2 -> ocejon
+  orin2 -> marbore
+  orin2 -> artecslab003
+  orin2 -> alpinevm1
+  orin2 -> alpinevm2
+  orin2 -> jorinnano
+
+  jorinnano -> ocejon
+  jorinnano -> marbore
+  jorinnano -> artecslab003
+  jorinnano -> orin2
+  jorinnano -> alpinevm1
+  jorinnano -> alpinevm2
+}

@@ -1,0 +1,69 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: triton
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: vanilla-triton
+      edgeservices.prueba.ucm.es: "hola"
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: vanilla-triton
+        edgeservices.prueba.ucm.es: "hola"
+    spec:
+      restartPolicy: Always
+      tolerations: []
+      containers:
+        - image: gulis1/custom_triton:0.2.2
+          name: triton-server
+          # Esto estoy bastante seguro de que no hace falta.
+          ports:
+            - containerPort: 8000
+              hostPort: 8080
+              protocol: TCP
+          # env:
+          # - name: CUDA_VISIBLE_DEVICES
+          #   value: "0"
+
+        - image: gulis1/custom_prometheus:0.1.0
+          name: triton-prometheus
+          # Para programar la parte de mrometheus, se puede quitar luego.
+          ports:
+            - containerPort: 9090
+              hostPort: 9090
+              protocol: TCP
+
+        - image: gulis1/edge_proxy_triton:1.0.6-minlatencia
+          name: triton-proxy
+          ports:
+            - containerPort: 9999
+              hostPort: 9999
+              protocol: TCP
+          env:
+            - name: POD_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: POD_NAMESPACE
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.namespace
+            - name: POD_UUID
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.uid
+            - name: RUST_LOG
+              value: info
+            - name: NVIDIA_VISIBLE_DEVICES
+              value: all
+            - name: NVIDIA_DRIVER_CAPABILITIES
+              value: all
+            - name: METRICS_QUERY_INTERVAL_SECS
+              value: "10"
+            #- name: CUDA_VISIBLE_DEVICES
+            #  value: "0"
+          securityContext:
+            capabilities:
+              add: ["NET_ADMIN", "SYS_TIME"]

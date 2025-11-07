@@ -1,0 +1,906 @@
+{
+    "time": 1000,
+    "nreq": 100,
+    "results": [
+        {
+            "total_ms": 217.82,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 175.14,
+            "t_pprocesado": 2.59
+        },
+        {
+            "total_ms": 92.11,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 68.31,
+            "t_pprocesado": 7.58
+        },
+        {
+            "total_ms": 92.74,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 69.99,
+            "t_pprocesado": 8.55
+        },
+        {
+            "total_ms": 102.25,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 76.75,
+            "t_pprocesado": 7.83
+        },
+        {
+            "total_ms": 96.52,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 70.05,
+            "t_pprocesado": 7.69
+        },
+        {
+            "total_ms": 96.7,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 74.39,
+            "t_pprocesado": 8.6
+        },
+        {
+            "total_ms": 75.6,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 53.03,
+            "t_pprocesado": 7.38
+        },
+        {
+            "total_ms": 85.23,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 64.1,
+            "t_pprocesado": 7.04
+        },
+        {
+            "total_ms": 85.87,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 64.0,
+            "t_pprocesado": 7.64
+        },
+        {
+            "total_ms": 95.81,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 73.43,
+            "t_pprocesado": 6.7
+        },
+        {
+            "total_ms": 90.45,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 67.25,
+            "t_pprocesado": 8.76
+        },
+        {
+            "total_ms": 99.41,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 77.15,
+            "t_pprocesado": 7.58
+        },
+        {
+            "total_ms": 89.97,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 65.93,
+            "t_pprocesado": 8.96
+        },
+        {
+            "total_ms": 101.68,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 76.52,
+            "t_pprocesado": 7.28
+        },
+        {
+            "total_ms": 106.9,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 82.03,
+            "t_pprocesado": 9.19
+        },
+        {
+            "total_ms": 88.98,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 68.8,
+            "t_pprocesado": 5.51
+        },
+        {
+            "total_ms": 91.23,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 70.64,
+            "t_pprocesado": 6.85
+        },
+        {
+            "total_ms": 87.35,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 65.83,
+            "t_pprocesado": 6.83
+        },
+        {
+            "total_ms": 86.95,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 66.64,
+            "t_pprocesado": 6.88
+        },
+        {
+            "total_ms": 87.42,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 67.21,
+            "t_pprocesado": 7.04
+        },
+        {
+            "total_ms": 92.85,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 70.8,
+            "t_pprocesado": 7.06
+        },
+        {
+            "total_ms": 85.44,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 63.36,
+            "t_pprocesado": 7.27
+        },
+        {
+            "total_ms": 87.38,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 64.86,
+            "t_pprocesado": 8.3
+        },
+        {
+            "total_ms": 90.24,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 67.77,
+            "t_pprocesado": 7.89
+        },
+        {
+            "total_ms": 96.58,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 74.06,
+            "t_pprocesado": 7.78
+        },
+        {
+            "total_ms": 88.72,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 67.48,
+            "t_pprocesado": 7.19
+        },
+        {
+            "total_ms": 92.04,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 70.53,
+            "t_pprocesado": 7.4
+        },
+        {
+            "total_ms": 81.94,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 62.24,
+            "t_pprocesado": 6.21
+        },
+        {
+            "total_ms": 115.39,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 75.24,
+            "t_pprocesado": 25.55
+        },
+        {
+            "total_ms": 69.81,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 52.28,
+            "t_pprocesado": 4.97
+        },
+        {
+            "total_ms": 99.9,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 72.83,
+            "t_pprocesado": 6.91
+        },
+        {
+            "total_ms": 81.9,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 60.94,
+            "t_pprocesado": 7.23
+        },
+        {
+            "total_ms": 88.39,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 68.4,
+            "t_pprocesado": 6.53
+        },
+        {
+            "total_ms": 103.54,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 76.45,
+            "t_pprocesado": 7.16
+        },
+        {
+            "total_ms": 79.98,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 62.37,
+            "t_pprocesado": 6.57
+        },
+        {
+            "total_ms": 90.93,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 66.18,
+            "t_pprocesado": 7.12
+        },
+        {
+            "total_ms": 95.08,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 76.05,
+            "t_pprocesado": 5.92
+        },
+        {
+            "total_ms": 93.93,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 71.3,
+            "t_pprocesado": 7.41
+        },
+        {
+            "total_ms": 118.44,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 56.73,
+            "t_pprocesado": 7.25
+        },
+        {
+            "total_ms": 89.1,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 66.04,
+            "t_pprocesado": 6.31
+        },
+        {
+            "total_ms": 88.01,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 66.34,
+            "t_pprocesado": 7.48
+        },
+        {
+            "total_ms": 89.59,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 69.18,
+            "t_pprocesado": 7.01
+        },
+        {
+            "total_ms": 88.82,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 65.2,
+            "t_pprocesado": 6.86
+        },
+        {
+            "total_ms": 89.33,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 67.5,
+            "t_pprocesado": 6.66
+        },
+        {
+            "total_ms": 92.62,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 68.92,
+            "t_pprocesado": 6.55
+        },
+        {
+            "total_ms": 89.18,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 69.41,
+            "t_pprocesado": 6.7
+        },
+        {
+            "total_ms": 104.61,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 83.61,
+            "t_pprocesado": 7.1
+        },
+        {
+            "total_ms": 92.47,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 70.63,
+            "t_pprocesado": 7.71
+        },
+        {
+            "total_ms": 90.17,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 70.45,
+            "t_pprocesado": 7.51
+        },
+        {
+            "total_ms": 100.6,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 77.84,
+            "t_pprocesado": 8.31
+        },
+        {
+            "total_ms": 83.71,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 64.4,
+            "t_pprocesado": 7.04
+        },
+        {
+            "total_ms": 88.05,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 66.32,
+            "t_pprocesado": 7.33
+        },
+        {
+            "total_ms": 73.5,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 52.28,
+            "t_pprocesado": 5.77
+        },
+        {
+            "total_ms": 92.92,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 68.05,
+            "t_pprocesado": 7.24
+        },
+        {
+            "total_ms": 88.56,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 67.56,
+            "t_pprocesado": 7.08
+        },
+        {
+            "total_ms": 98.33,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 77.24,
+            "t_pprocesado": 7.31
+        },
+        {
+            "total_ms": 81.63,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 53.65,
+            "t_pprocesado": 7.07
+        },
+        {
+            "total_ms": 84.18,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 62.8,
+            "t_pprocesado": 6.61
+        },
+        {
+            "total_ms": 87.15,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 66.98,
+            "t_pprocesado": 7.03
+        },
+        {
+            "total_ms": 82.71,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 62.76,
+            "t_pprocesado": 4.25
+        },
+        {
+            "total_ms": 117.82,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 65.83,
+            "t_pprocesado": 39.8
+        },
+        {
+            "total_ms": 86.18,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 64.81,
+            "t_pprocesado": 7.41
+        },
+        {
+            "total_ms": 89.53,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 68.81,
+            "t_pprocesado": 7.29
+        },
+        {
+            "total_ms": 62.19,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 51.39,
+            "t_pprocesado": 2.11
+        },
+        {
+            "total_ms": 99.65,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 75.63,
+            "t_pprocesado": 7.12
+        },
+        {
+            "total_ms": 72.97,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 50.01,
+            "t_pprocesado": 7.28
+        },
+        {
+            "total_ms": 89.51,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 69.14,
+            "t_pprocesado": 7.05
+        },
+        {
+            "total_ms": 87.68,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 66.67,
+            "t_pprocesado": 7.11
+        },
+        {
+            "total_ms": 82.26,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 64.21,
+            "t_pprocesado": 6.82
+        },
+        {
+            "total_ms": 76.3,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 56.91,
+            "t_pprocesado": 6.94
+        },
+        {
+            "total_ms": 86.3,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 66.5,
+            "t_pprocesado": 6.83
+        },
+        {
+            "total_ms": 68.42,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 48.83,
+            "t_pprocesado": 6.71
+        },
+        {
+            "total_ms": 91.89,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 68.41,
+            "t_pprocesado": 5.22
+        },
+        {
+            "total_ms": 86.47,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 67.28,
+            "t_pprocesado": 6.87
+        },
+        {
+            "total_ms": 91.67,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 70.6,
+            "t_pprocesado": 7.11
+        },
+        {
+            "total_ms": 89.04,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 68.62,
+            "t_pprocesado": 7.45
+        },
+        {
+            "total_ms": 87.7,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 67.22,
+            "t_pprocesado": 8.12
+        },
+        {
+            "total_ms": 95.09,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 72.63,
+            "t_pprocesado": 6.68
+        },
+        {
+            "total_ms": 88.78,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 69.81,
+            "t_pprocesado": 7.21
+        },
+        {
+            "total_ms": 83.23,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 62.3,
+            "t_pprocesado": 7.47
+        },
+        {
+            "total_ms": 89.92,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 67.31,
+            "t_pprocesado": 7.28
+        },
+        {
+            "total_ms": 88.58,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 69.18,
+            "t_pprocesado": 6.67
+        },
+        {
+            "total_ms": 91.06,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 70.36,
+            "t_pprocesado": 7.34
+        },
+        {
+            "total_ms": 70.52,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 49.99,
+            "t_pprocesado": 7.22
+        },
+        {
+            "total_ms": 91.61,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 70.22,
+            "t_pprocesado": 7.5
+        },
+        {
+            "total_ms": 87.5,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 66.32,
+            "t_pprocesado": 7.1
+        },
+        {
+            "total_ms": 95.44,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 74.22,
+            "t_pprocesado": 7.35
+        },
+        {
+            "total_ms": 88.93,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 68.28,
+            "t_pprocesado": 7.25
+        },
+        {
+            "total_ms": 119.16,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 66.15,
+            "t_pprocesado": 7.12
+        },
+        {
+            "total_ms": 76.71,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 49.94,
+            "t_pprocesado": 7.39
+        },
+        {
+            "total_ms": 77.72,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 50.88,
+            "t_pprocesado": 7.24
+        },
+        {
+            "total_ms": 87.25,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 66.11,
+            "t_pprocesado": 7.17
+        },
+        {
+            "total_ms": 89.07,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 67.57,
+            "t_pprocesado": 7.08
+        },
+        {
+            "total_ms": 85.16,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 62.5,
+            "t_pprocesado": 8.4
+        },
+        {
+            "total_ms": 87.48,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 67.24,
+            "t_pprocesado": 7.2
+        },
+        {
+            "total_ms": 80.13,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 66.9,
+            "t_pprocesado": 5.39
+        },
+        {
+            "total_ms": 90.35,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 70.56,
+            "t_pprocesado": 7.28
+        },
+        {
+            "total_ms": 74.76,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 52.64,
+            "t_pprocesado": 7.34
+        },
+        {
+            "total_ms": 89.13,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 66.55,
+            "t_pprocesado": 7.06
+        },
+        {
+            "total_ms": 85.87,
+            "model": "resnet_orin_int8",
+            "route": "19a45562-1e24-4e58-960d-2b9d48f8f1e0->01bf4621-4af0-4b94-aac2-ad90b2471f5c",
+            "prioridad": 10000,
+            "accuracy": 60,
+            "t_inferencia": 66.74,
+            "t_pprocesado": 6.96
+        }
+    ]
+}

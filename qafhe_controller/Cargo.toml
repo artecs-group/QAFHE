@@ -1,0 +1,8 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "qafhe_balancer_controller",
+    "qafhe_balancer_lib",
+]
+
